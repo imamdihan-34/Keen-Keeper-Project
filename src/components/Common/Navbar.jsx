@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="bg-white border-b sticky top-0 z-50">
       <div className="container mx-auto px-4 h-16 flex justify-between items-center">
-        <div className="text-2xl font-bold text-teal-900">KeenKeeper</div>
+      <div><img src="/src/assets/logo.png" alt="" /></div>
         <div className="flex gap-4 md:gap-6">
           {menuItems.map((item) => (
             <NavLink

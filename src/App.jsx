@@ -6,7 +6,6 @@ import Home from './components/Pages/Home';
 import FriendDetails from './components/Pages/FriendDetails';
 import Timeline from './components/Pages/Timeline';
 import Stats from './components/Pages/Stats';
-import NotFound from './components/Pages/NotFound';
 
 function App() {
   return (
@@ -21,9 +20,16 @@ function App() {
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/stats" element={<Stats />} />
         
-        <NotFound></NotFound>
+          <Route path="*" element={
+            <div className="flex flex-col items-center justify-center py-20">
+              <h1 className="text-6xl font-bold text-teal-800 italic">404</h1>
+              <p className="text-xl text-gray-500 mt-4">Oops! This page doesn't exist.</p>
+            </div>
+          } />
         </Routes>
       </main>
+
+      {/* কমন ফুটার */}
       <Footer />
     </div>
   );
