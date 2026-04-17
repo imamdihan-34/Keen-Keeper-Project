@@ -1,9 +1,10 @@
+
 export default function Footer() {
   return (
     <footer className="bg-[#244d3e] text-white py-12 px-6">
-      {/* --- Logo and Tagline Section --- */}
+ 
       <div className="flex flex-col justify-center items-center text-center mb-10">
-        <img src="/src/assets/logo-xl.png" alt="KeenKeeper" className="mb-4" />
+        <img src="/logo-xl.png" alt="KeenKeeper" className="mb-4" />
         <p className="text-white text-sm mt-2 max-w-md">
           Your personal shelf of meaningful connections. Browse, tend, and
           nurture the relationships that matter most.
@@ -15,21 +16,21 @@ export default function Footer() {
         <div className="flex gap-4">
           <a href="#" className="hover:opacity-80 transition-opacity">
             <img
-              src="/src/assets/instagram.png"
+              src="/instagram.png"
               alt="Instagram"
               className="w-10 h-10"
             />
           </a>
           <a href="#" className="hover:opacity-80 transition-opacity">
             <img
-              src="/src/assets/facebook.png"
+              src="/facebook.png"
               alt="Facebook"
               className="w-10 h-10"
             />
           </a>
           <a href="#" className="hover:opacity-80 transition-opacity">
             <img
-              src="/src/assets/twitter.png"
+              src="/twitter.png"
               alt="Twitter"
               className="w-10 h-10"
             />
