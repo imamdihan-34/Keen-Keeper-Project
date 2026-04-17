@@ -11,14 +11,19 @@ export default function Banner() {
         <Plus size={18}/> Add a Friend
       </button>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-        {["Total Friends","On Track","Need Attention","Interactions"].map((item,i)=>(
-          <div key={i} className="bg-gray-100 p-4 rounded">
-            <h2 className="text-xl font-bold">10</h2>
-            <p className="text-gray-500">{item}</p>
-          </div>
-        ))}
-      </div>
+     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+  {[
+    { label: "Total Friends", value: 10 },
+    { label: "On Track", value: 3 },
+    { label: "Need Attention", value: 6 },
+    { label: "Interactions", value: 12 }
+  ].map((item, i) => (
+    <div key={i} className="bg-gray-100 p-4 rounded">
+      <h2 className="text-xl font-bold text-[#244d3f]">{item.value}</h2>
+      <p className="text-gray-500">{item.label}</p>
+    </div>
+  ))}
+</div>
     </div>
   );
 }
