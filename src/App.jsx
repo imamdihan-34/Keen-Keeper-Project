@@ -6,10 +6,11 @@ import Home from './components/Pages/Home';
 import FriendDetails from './components/Pages/FriendDetails';
 import Timeline from './components/Pages/Timeline';
 import Stats from './components/Pages/Stats';
+import NotFound from './components/Pages/NotFound';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-50">
+    <div className="flex flex-col : min-h-screen bg-slate-50">
       <Toaster position="top-center" />
       <Navbar />
       
@@ -28,8 +29,7 @@ function App() {
           } />
         </Routes>
       </main>
-
-      {/* কমন ফুটার */}
+      
       <Footer />
     </div>
   );

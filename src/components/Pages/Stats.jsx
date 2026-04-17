@@ -21,6 +21,7 @@ export default function Stats() {
       { name: 'Video', value: counts['Video'] || 0, color: '#22c55e' }, // Light Green
     ];
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setData(chartData);
   }, []);
 
