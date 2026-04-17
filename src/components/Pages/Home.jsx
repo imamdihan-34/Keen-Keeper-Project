@@ -32,7 +32,7 @@ export default function Home() {
             <p className="mt-4 text-teal-600 font-medium">Loading friends...</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
             {friends.map((friend) => (
               <FriendCard key={friend.id} friend={friend} />
             ))}
