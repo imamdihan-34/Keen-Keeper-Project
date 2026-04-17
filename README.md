@@ -1,16 +1,18 @@
-# React + Vite
+# Project Name: KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal shelf of meaningful connections designed to help you browse, tend, and nurture the relationships that matter most. KeenKeeper allows you to keep track of your friends, monitor your interaction frequency, and maintain a healthy social life.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Frontend:** React.js, Tailwind CSS
+* **Icons:** React Icons (Hi2)
+* **Notifications:** React Hot Toast
+* **Routing:** React Router DOM
+* **State Management:** React Hooks (useState, useEffect)
+* **Storage:** LocalStorage (Browser-based persistence)
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Smart Friend Timeline:** Automatically logs interactions. When you initiate a call, video chat, or message from the friend's detail page, it updates a centralized timeline to keep a history of your social activity.
+2.  **Interaction Tracking & Status:** Categorize your friends and see at a glance who is "On Track" and who "Needs Attention" based on your recent interactions.
+3.  **Dynamic Filtering:** Easily filter your social history by interaction type (Calls, Messages, or Video) to review specific communication patterns.
